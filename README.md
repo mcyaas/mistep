@@ -9,5 +9,3 @@ mistep 通过小米运动api刷步数。
 添加Secrets名为：GIT_PWD的变量，值为github token，需要有workflow读写权限，避免git push的权限错误。
 
 多账户用#分割，变量保存到USER和PWD。注意用户名和密码对应关系。
-
-测试版！!!!希望成功啊啊啊啊啊！
