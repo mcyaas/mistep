@@ -49,8 +49,8 @@ jobs:
         run: |
           zsh random_cron.sh
           git_pwd='${{ secrets.GIT_PWD }}'
-          git config --global user.name "Oakwen"
-          git config --global user.email "dai.tianwen@gmail.com"
+          git config --global user.name "Mistep"
+          git config --global user.email "mcyaas1@gmail.com"
           git add .
           git commit -m '重置下次刷新时间'
           git remote set-url origin http://Oakwen:${git_pwd}@github.com/Oakwen/mistep.git
